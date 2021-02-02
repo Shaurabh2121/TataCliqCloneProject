@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 <TextView
     android:layout_width="match_parent"
-    android:background="@color/black"
+    android:background="#F2171616"
         android:id="@+id/v1"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
@@ -18,7 +18,7 @@
    <TextView
     android:layout_width="match_parent"
        android:id="@+id/v2"
-       android:background="@color/black"
+       android:background="#F2171616"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintBottom_toTopOf="@id/v3"
@@ -37,7 +37,7 @@
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@color/black"
+        android:background="#F2171616"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/v2" />
     <ImageView
