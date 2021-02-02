@@ -9,12 +9,12 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
     private BottomNavigationView bnv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second);
         bnv=findViewById(R.id.bottomNavigation);
         getSupportFragmentManager().beginTransaction().replace(R.id.frameContainer,new HomeFragment()).commit();
         bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -38,4 +38,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-}
+    }
